@@ -73,7 +73,7 @@ RideSharingRouteOptimizer/
 0 -> 5 = 10\
 \
 ===== BEST PICKUP POINT =====\
-Nearest passenger: Node 3\
+Nearest passenger: Node 3
 
 
 
