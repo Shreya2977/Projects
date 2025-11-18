@@ -48,16 +48,16 @@ Roads are represented with weighted edges, simulating traffic or travel time.
 
 ## 📁 Project Structure
 
-RideSharingRouteOptimizer/
-│
-├── src/
-│   ├── main.cpp        # Main program
-│   ├── Graph.h         # Graph class & algorithms
-│
-├── data/
-│   └── sample_graph.txt  # Example city map (optional)
-│
-├── README.md
+RideSharingRouteOptimizer/ \
+│\
+├── src/ \
+│   ├── main.cpp        # Main program\
+│   ├── Graph.h         # Graph class & algorithms\
+│\
+├── data/\
+│   └── sample_graph.txt  # Example city map (optional)\
+│\
+├── README.md\
 └── LICENSE (optional)
 
 
