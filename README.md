@@ -1,6 +1,6 @@
-🚗 Ride-Sharing Route Optimizer
+🚗** Ride-Sharing Route Optimizer
 
-Graph Algorithms – C++ (Dijkstra, Floyd-Warshall, Multi-Source Dijkstra)
+Graph Algorithms – C++ (Dijkstra, Floyd-Warshall, Multi-Source Dijkstra)**
 
 A high-performance ride-sharing route optimization system that simulates how apps like Uber/Ola compute shortest routes, handle traffic, and select the best pickup point.
 The project uses advanced graph algorithms and models the city map as a weighted graph.
@@ -48,7 +48,7 @@ Roads are represented with weighted edges, simulating traffic or travel time.
 
 
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Project Structure
 
@@ -65,7 +65,7 @@ RideSharingRouteOptimizer/
 └── LICENSE (optional)
 
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧪 Sample Output
 
@@ -105,23 +105,16 @@ g++ main.cpp -o route_optimizer
 📚 How It Works
 
 ⿡ Build graph (adjacency list)
-
 Each node is a location, each edge is a road with weight = travel time.
 
 ⿢ Run Dijkstra
-
 Find distance from driver → all nodes.
 
 ⿣ Run Multi-Source Dijkstra
-
 Find which passenger is closest.
 
 ⿤ (Optional) Use Floyd-Warshall
-
 Answer "distance between any two points" instantly.
-
-
----
 
 🛠 Future Extensions
 
