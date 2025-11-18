@@ -64,16 +64,16 @@ RideSharingRouteOptimizer/
 
 # 🧪 Sample Output
 
-===== DIJKSTRA: Shortest path from Node 0 =====
-0 -> 0 = 0
-0 -> 1 = 3
-0 -> 2 = 2
-0 -> 3 = 5
-0 -> 4 = 7
-0 -> 5 = 10
-
-===== BEST PICKUP POINT =====
-Nearest passenger: Node 3
+===== DIJKSTRA: Shortest path from Node 0 =====\
+0 -> 0 = 0\
+0 -> 1 = 3\
+0 -> 2 = 2\
+0 -> 3 = 5\
+0 -> 4 = 7\
+0 -> 5 = 10\
+\
+===== BEST PICKUP POINT =====\
+Nearest passenger: Node 3\
 
 
 
@@ -87,12 +87,9 @@ g++ compiler
 
 (Optional) Git Bash for version control
 
-
 Compile using:
-
 g++ main.cpp -o route_optimizer
 ./route_optimizer
-
 
 
 # 📚 How It Works
@@ -117,7 +114,3 @@ Answer "distance between any two points" instantly.
 - Heatmap-based pickup zones
 - UI visualization
 - Using A* instead of Dijkstra for faster routes
-
-
-
--
